@@ -7,11 +7,11 @@ as many as four files as required for one of four catagories: nouns, verbs,
 pronouns and adjectives. The order of the types of words is expected to fit
 any of 5 structures:
 /*
-1. <sentence> ::= <noun><verb><noun>
-2. <sentence> ::= <noun><verb><adjective><noun>
-3. <sentence> ::= <pronoun><verb><noun>
-4. <sentence> ::= <pronoun><verb><adjective><noun>
-5. <sentence> ::= <pronoun><verb><pronoun>
+1. //<sentence> ::= <noun><verb><noun>
+2. //<sentence> ::= <noun><verb><adjective><noun>
+3. //<sentence> ::= <pronoun><verb><noun>
+4. //<sentence> ::= <pronoun><verb><adjective><noun>
+5. //<sentence> ::= <pronoun><verb><pronoun>
 Successful matches of input word groups that are in an order that fits one of the 
 above 'grammatical' structures triggers print to console statement of successfully
 matched  words and the grammatical structure the ordered words match. The program 
